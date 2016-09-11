@@ -1,0 +1,84 @@
+{% load staticfiles %}
+<!doctype html>
+<html class="moonstick no-js laterooms home">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="language" http-equiv="Content-Language" content="en" />
+    <script>
+        window.BOOMR = undefined;
+    </script>
+    <script src="{% static 'js/1.js' %}"></script>
+    <script src="{% static 'js/2.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/1.css' %}">
+    <link rel="stylesheet" href="{% static 'js/2.css' %}">
+
+    <script src="{% static 'js/3.js' %}"></script>
+</head>
+
+<body data-pagetype="home">
+    
+ <section class="above-fold">
+
+        <nav class="main-nav">
+    <ul class="main-nav__desktop">
+            <li><i class="icon-phone"></i><a     ><font color="red">+911234567890</font></a></li>
+            <li><a href="/index/" title="About Us"   data-track="about_us"><b>Home</b></a></li>
+            <li><a href="/admin/"><b>Admin Login</b></a></li>
+    </ul>
+</nav>
+        <div class="container home-page">
+<style>
+    @media (min-width: 768px) {
+        .above-fold {
+            background-image: url({% static 'img/hd_party_wallpaper.jpg' %});
+            transition: background-image 0.5s ease-in;
+        }
+
+        .above-fold--loaded {
+            background-image: url({% static 'img/hd_party_wallpaper.jpg' %});
+            transition: background-image 0.5s ease-in;
+        }
+    }
+</style>
+
+<div id="bg-fullsize" data-src="{% static 'img/hd_party_wallpaper.jpg' %}"></div>
+                </div>
+            </div>
+
+        </div>
+    <section class="footer">
+        <div class="container">
+        <br>
+        <div class="jumbotron">
+            <p id="p01" style="font-family:Matura MT Script Capitals"><font size="32">About</font></p>
+            <blockquote>
+            <p id="p01" style="font-family:Matura MT Script Capitals"><font size="16">“It's going to be a great night...”</font></p>
+            <p>Welcome friend. You've made it to <a href="home.html">PartySeeker.Com</a>, which can only mean one thing: you've got a great trip coming up and now you're throwing out the high fives, chest bumping your mates, or just screaming
+                    yourself silly in excitement.</p>
+             <p>This is your moment and you know it's going to be a great night.</p>
+
+                <p>*And breathe*</p>
+          </blockquote>
+           <blockquote>
+            <p id="p01" style="font-family:Matura MT Script Capitals"><font size="16">“Now, where are you going to make your party memorable?” </font></p>
+            <p>Great question. And you've come to the right place. Because we know hotels. Like, really know them</p>
+             <p>We have an enormous selection to choose from, more than you'll ever need in 16 lifetimes. We've got over 150,000 hotels dotted all over the globe, so whatever your trip, we can help you get your head down somewhere great.</p>
+
+                <p>Whether it's your daughter's first concert, watching your football team win away, or a girly weekend in the city, we can help you make it happen without breaking a sweat.</p>
+          </blockquote>
+           <blockquote>
+            <p id="p01" style="font-family:Matura MT Script Capitals"><font size="16">“Yes, you too business trippers” </font></p>
+            <p>We're here 24/7, so if you need a great room you can book online, or even give us a call. Then once that's sorted, you can get back to screaming like a prepubescent teenager and rest assured that it really is going to be a great night</p>
+             <p>This is your moment and you know it's going to be a great night.</p>
+
+                <p>Or great weekend</p>
+          </blockquote>
+
+      </div>
+      <br>
+      <br>
+    </div>
+    </section>
+    </body>
+</html>
